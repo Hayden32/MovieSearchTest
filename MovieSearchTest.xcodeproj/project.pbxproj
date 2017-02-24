@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF540D391E60907900154632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF540D381E60907900154632 /* AppDelegate.swift */; };
+		EF540D3E1E60907900154632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF540D3C1E60907900154632 /* Main.storyboard */; };
+		EF540D401E60907900154632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF540D3F1E60907900154632 /* Assets.xcassets */; };
+		EF540D431E60907900154632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF540D411E60907900154632 /* LaunchScreen.storyboard */; };
+		EF540D4D1E60925000154632 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF540D4C1E60925000154632 /* Movie.swift */; };
+		EF540D501E60927800154632 /* ModelControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF540D4F1E60927800154632 /* ModelControllers.swift */; };
+		EF540D531E6092DA00154632 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF540D521E6092DA00154632 /* NetworkController.swift */; };
+		EF540D561E60930500154632 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF540D551E60930500154632 /* ImageController.swift */; };
+		EF540D581E60932A00154632 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF540D571E60932A00154632 /* MovieListTableViewController.swift */; };
+		EF540D5A1E60936900154632 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF540D591E60936900154632 /* MovieTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF540D351E60907900154632 /* MovieSearchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSearchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF540D381E60907900154632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF540D3D1E60907900154632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF540D3F1E60907900154632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF540D421E60907900154632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF540D441E60907900154632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF540D4C1E60925000154632 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		EF540D4F1E60927800154632 /* ModelControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelControllers.swift; sourceTree = "<group>"; };
+		EF540D521E6092DA00154632 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		EF540D551E60930500154632 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		EF540D571E60932A00154632 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		EF540D591E60936900154632 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF540D321E60907900154632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF540D2C1E60907900154632 = {
+			isa = PBXGroup;
+			children = (
+				EF540D371E60907900154632 /* MovieSearchTest */,
+				EF540D4A1E60922600154632 /* Resources */,
+				EF540D361E60907900154632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF540D361E60907900154632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF540D351E60907900154632 /* MovieSearchTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF540D371E60907900154632 /* MovieSearchTest */ = {
+			isa = PBXGroup;
+			children = (
+				EF540D4E1E60926700154632 /* Models */,
+				EF540D511E60928100154632 /* ModelController */,
+				EF540D541E6092E000154632 /* ViewControllers */,
+				EF540D4B1E60923700154632 /* Storyboards */,
+			);
+			path = MovieSearchTest;
+			sourceTree = "<group>";
+		};
+		EF540D4A1E60922600154632 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF540D381E60907900154632 /* AppDelegate.swift */,
+				EF540D3F1E60907900154632 /* Assets.xcassets */,
+				EF540D441E60907900154632 /* Info.plist */,
+			);
+			name = Resources;
+			path = MovieSearchTest;
+			sourceTree = "<group>";
+		};
+		EF540D4B1E60923700154632 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF540D3C1E60907900154632 /* Main.storyboard */,
+				EF540D411E60907900154632 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF540D4E1E60926700154632 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF540D4C1E60925000154632 /* Movie.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EF540D511E60928100154632 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				EF540D4F1E60927800154632 /* ModelControllers.swift */,
+			);
+			name = ModelController;
+			sourceTree = "<group>";
+		};
+		EF540D541E6092E000154632 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF540D521E6092DA00154632 /* NetworkController.swift */,
+				EF540D551E60930500154632 /* ImageController.swift */,
+				EF540D571E60932A00154632 /* MovieListTableViewController.swift */,
+				EF540D591E60936900154632 /* MovieTableViewCell.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF540D341E60907900154632 /* MovieSearchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF540D471E60907900154632 /* Build configuration list for PBXNativeTarget "MovieSearchTest" */;
+			buildPhases = (
+				EF540D311E60907900154632 /* Sources */,
+				EF540D321E60907900154632 /* Frameworks */,
+				EF540D331E60907900154632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieSearchTest;
+			productName = MovieSearchTest;
+			productReference = EF540D351E60907900154632 /* MovieSearchTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF540D2D1E60907900154632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hayden Hastings";
+				TargetAttributes = {
+					EF540D341E60907900154632 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF540D301E60907900154632 /* Build configuration list for PBXProject "MovieSearchTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF540D2C1E60907900154632;
+			productRefGroup = EF540D361E60907900154632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF540D341E60907900154632 /* MovieSearchTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF540D331E60907900154632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF540D431E60907900154632 /* LaunchScreen.storyboard in Resources */,
+				EF540D401E60907900154632 /* Assets.xcassets in Resources */,
+				EF540D3E1E60907900154632 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF540D311E60907900154632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF540D581E60932A00154632 /* MovieListTableViewController.swift in Sources */,
+				EF540D561E60930500154632 /* ImageController.swift in Sources */,
+				EF540D5A1E60936900154632 /* MovieTableViewCell.swift in Sources */,
+				EF540D531E6092DA00154632 /* NetworkController.swift in Sources */,
+				EF540D4D1E60925000154632 /* Movie.swift in Sources */,
+				EF540D501E60927800154632 /* ModelControllers.swift in Sources */,
+				EF540D391E60907900154632 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF540D3C1E60907900154632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF540D3D1E60907900154632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF540D411E60907900154632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF540D421E60907900154632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF540D451E60907900154632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF540D461E60907900154632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF540D481E60907900154632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MovieSearchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MovieSearchTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF540D491E60907900154632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MovieSearchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MovieSearchTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF540D301E60907900154632 /* Build configuration list for PBXProject "MovieSearchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF540D451E60907900154632 /* Debug */,
+				EF540D461E60907900154632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF540D471E60907900154632 /* Build configuration list for PBXNativeTarget "MovieSearchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF540D481E60907900154632 /* Debug */,
+				EF540D491E60907900154632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF540D2D1E60907900154632 /* Project object */;
+}

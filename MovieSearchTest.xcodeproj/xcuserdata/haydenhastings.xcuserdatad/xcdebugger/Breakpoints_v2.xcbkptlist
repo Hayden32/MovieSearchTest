@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchTest/Movie.swift"
+            timestampString = "509648657.524088"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "init(dictionary:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchTest/ModelControllers.swift"
+            timestampString = "509649591.710469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchMovie(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchTest/ModelControllers.swift"
+            timestampString = "509649598.691976"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "fetchMovie(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchTest/ModelControllers.swift"
+            timestampString = "509649606.59141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchMovie(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static MovieSearchTest.MovieController.(fetchMovie (for : Swift.String, completion : (Swift.Array&lt;MovieSearchTest.Movie&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "MovieSearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haydenhastings/Documents/Bank/Tests/MovieSearchTest/MovieSearchTest/ModelControllers.swift"
+                  timestampString = "509651807.009443"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static MovieSearchTest.MovieController.(fetchMovie (for : Swift.String, completion : (Swift.Array&lt;MovieSearchTest.Movie&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "MovieSearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haydenhastings/Documents/Bank/Tests/MovieSearchTest/MovieSearchTest/ModelControllers.swift"
+                  timestampString = "509651807.010563"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "597">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchTest/ModelControllers.swift"
+            timestampString = "509650375.307018"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MovieController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_90AB2F693748F7A7F2E6B7FBCC994FBA_func0"
+                  moduleName = "MovieSearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haydenhastings/Documents/Bank/Tests/MovieSearchTest/MovieSearchTest/ModelControllers.swift"
+                  timestampString = "509651807.012829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSearchTest.MovieController.baseURL.unsafeMutableAddressor : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "MovieSearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haydenhastings/Documents/Bank/Tests/MovieSearchTest/MovieSearchTest/ModelControllers.swift"
+                  timestampString = "509651807.013929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static MovieSearchTest.MovieController.baseURL.getter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "MovieSearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haydenhastings/Documents/Bank/Tests/MovieSearchTest/MovieSearchTest/ModelControllers.swift"
+                  timestampString = "509651807.015072"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchTest/Movie.swift"
+            timestampString = "509651794.876773"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "init(dictionary:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSearchTest.Movie.init (dictionary : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;MovieSearchTest.Movie&gt;"
+                  moduleName = "MovieSearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haydenhastings/Documents/Bank/Tests/MovieSearchTest/MovieSearchTest/Movie.swift"
+                  timestampString = "509651807.018057"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "317">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSearchTest.Movie.init (dictionary : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;MovieSearchTest.Movie&gt;"
+                  moduleName = "MovieSearchTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haydenhastings/Documents/Bank/Tests/MovieSearchTest/MovieSearchTest/Movie.swift"
+                  timestampString = "509651807.01932"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "777">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
